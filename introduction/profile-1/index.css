@@ -73,3 +73,26 @@ li {
 }
 /* /ヘッダー */
 
+/* メインビジュアル */
+#mainvisual {
+  margin-bottom: 80px;
+}
+
+#mainvisual img {
+  width: 100%;
+  max-width: 1920px;
+  height: 600px;
+  object-fit: cover;
+}
+/* /メインビジュアル */
+
+
+
+/* レスポンシブ */
+@media screen and (max-width: 600px) {
+  /* メインビジュアル */
+  #mainvisual img {
+    height: calc(100vh - 60px);
+  }
+  /* /メインビジュアル */
+}
