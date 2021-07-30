@@ -45,7 +45,13 @@ img {
 #header .site-title a {
   display: block;
 }
-/* ヘッダー */
+/* /ヘッダー */
+
+/* メインビジュアル */
+#mainvisual {
+  margin-bottom: 60px;
+}
+/* /メインビジュアル */
 
 /* レスポンシブ */
 @media screen and (max-width: 1024px) {
@@ -57,5 +63,11 @@ img {
   #header {
     padding: 0 10px;
   }
-  /* ヘッダー */
+  /* /ヘッダー */
+
+  /* メインビジュアル */
+  #mainvisual {
+    padding: 0 10px;
+  }
+  /* /メインビジュアル */
 }
