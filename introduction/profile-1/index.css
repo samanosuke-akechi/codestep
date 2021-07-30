@@ -109,6 +109,16 @@ p {
 }
 /* /About */
 
+/* Bicycle */
+#bicycle ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+#bicycle li {
+  width: 32%;
+}
+
 /* レスポンシブ */
 @media screen and (max-width: 600px) {
   /* メインビジュアル */
@@ -125,4 +135,16 @@ p {
   #about .content img {
     margin-right: 0;
   }
+  /* /About */
+
+  /* Bicycle */
+  #bicycle ul {
+    flex-direction: column;
+  }
+
+  #bicycle li {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  /* /Bicycle */
 }
