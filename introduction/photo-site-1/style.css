@@ -133,6 +133,13 @@ img {
 }
 /* /Detail */
 
+/* フッター */
+#footer {
+  padding: 15px 0;
+  text-align: center;
+}
+/* フッター */
+
 /* レスポンシブ */
 @media screen and (max-width: 1024px) {
   .inner {
