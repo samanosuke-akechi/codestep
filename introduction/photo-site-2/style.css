@@ -34,3 +34,12 @@ ul {
   margin-bottom: 30px;
   text-align: center;
 }
+
+
+
+/* レスポンシブ */
+@media screen and (max-width: 1024px) {
+  .inner {
+    padding: 0 20px;
+  }
+}
