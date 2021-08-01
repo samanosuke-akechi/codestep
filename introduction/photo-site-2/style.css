@@ -35,6 +35,22 @@ ul {
   text-align: center;
 }
 
+/* ヘッダー */
+#header {
+  margin-top: 60px;
+}
+
+#header .site-title {
+  width: 180px;
+  line-height: 1px;  /* h1タグとimgタグの高さを合わせている */
+  margin-bottom: 15px;
+}
+
+#header .site-title a {
+  display: block;  /* aタグのリンク範囲を親要素のサイズに広げている */
+}
+/* /ヘッダー */
+
 
 
 /* レスポンシブ */
@@ -42,4 +58,10 @@ ul {
   .inner {
     padding: 0 20px;
   }
+
+  /* ヘッダー */
+  #header {
+    padding: 0 10px;
+  }
+  /* /ヘッダー */
 }
