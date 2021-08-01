@@ -87,6 +87,73 @@ ul {
 }
 /* /Index */
 
+/* Image */
+.list {
+  display: flex;
+  flex-wrap: wrap;  /* 子要素が並ぶ時に親要素の幅からはみ出る時は改行させる */
+  justify-content: space-between;  /* 両橋揃えで均等に配置 */
+  margin: 30px 0 45px 0;
+}
+
+.list li {
+  width: 49%;
+  margin-bottom: 15px;
+}
+
+.list li img {
+  vertical-align: bottom;  /* 画像下の微妙な隙間を消す */
+}
+/* /Image */
+
+/* Detail */
+#detail {
+  background-color: #f5f5f5;
+  padding: 60px;
+  margin-bottom: 60px;
+  line-height: 2rem;
+}
+
+#detail .flex {
+  display: flex;
+}
+
+#detail dl {
+  width: 35%;
+  border-right: solid 1px #333;
+  padding-right: 40px;
+  font-size: 1.4rem;
+}
+
+#detail dt {
+  font-weight: bold;
+}
+
+#detail dd {
+  margin-bottom: 10px;
+}
+
+#detail dd:last-child {
+  margin-bottom: 0;
+}
+
+#detail .text {
+  width: 65%;
+  padding-left: 40px;
+  font-size: 1.4rem;
+}
+#detail .text p {
+  margin-bottom: 20px;
+}
+
+#detail .text .link {
+  color: #333;
+}
+
+#detail .text .link:hover {
+  opacity: 0.8;
+}
+/* /Detail */
+
 /* レスポンシブ */
 @media screen and (max-width: 1024px) {
   .inner {
@@ -104,4 +171,37 @@ ul {
     padding: 40px 20px;
   }
   /* /Index */
+
+  /* Image */
+  .list {
+    flex-direction: column;
+  }
+
+  .list li {
+    width: 100%;
+    text-align: center;
+  }
+  /* /Image */
+
+  /* Detail */
+  #detail {
+    padding: 40px 20px;
+  }
+
+  #detail .flex {
+    flex-direction: column;
+  }
+
+  #detail dl {
+    width: 100%;
+    border-right: none;
+    border-bottom: solid 1px #333;
+    padding: 0 0 40px 0;
+  }
+
+  #detail .text {
+    width: 100%;
+    padding: 40px 0 0 0;
+  }
+  /* /Detail */
 }
