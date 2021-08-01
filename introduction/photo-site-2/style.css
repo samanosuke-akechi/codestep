@@ -154,6 +154,13 @@ ul {
 }
 /* /Detail */
 
+/* footer */
+#footer {
+  padding: 15px 0;
+  text-align: center;
+}
+/* /footer */
+
 /* レスポンシブ */
 @media screen and (max-width: 1024px) {
   .inner {
@@ -205,3 +212,4 @@ ul {
   }
   /* /Detail */
 }
+/* /レスポンシブ */
